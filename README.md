@@ -34,6 +34,7 @@ Update your `/etc/hosts` and add
     127.0.0.1 apilogic.loc
 
 Update your `/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf` with
+
     #### APILOGIC ####
     <VirtualHost *:80>
       ServerName apilogic.loc
@@ -45,9 +46,11 @@ Update your `/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf` with
       </Directory>
     </VirtualHost>
 
+Check your folder `app/logs`and `app/cache` permissions
+
 Then, go to `http://apilogic.loc/config.php`
 
-
+And begin your [code learning][2] 
 
 3) Browsing the Apilogic
 --------------------------------
@@ -58,3 +61,4 @@ To see a real-live Symfony page in action, access the following page:
 
 
 [1]:  http://getcomposer.org/
+[2]:  http://symfony.com/doc/master/book/page_creation.html
