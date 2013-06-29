@@ -56,7 +56,7 @@ Create `uplaods` folder:
 
 Then, go to `http://apilogic.loc/config.php`
 
-    php app/console doctrine:schema:update
+    php app/console doctrine:schema:update --force
     php app/console fos:user:create
     php app/console fos:user:promote
 
@@ -65,7 +65,6 @@ Then, go to `http://apilogic.loc/config.php`
 
 To see a real-live Symfony page in action, access the following page:
 
-    http://apilogic.loc/app_dev.php/demo/hello/Fabien
     http://apilogic.loc/app_dev.php/admin/dashboard (admin::password)
 
 4) Implement
