@@ -57,7 +57,8 @@ And begin your [code learning][5]
 
 To see a real-live Symfony page in action, access the following page:
 
-    web/app_dev.php/demo/hello/Fabien
+    http://apilogic.loc/app_dev.php/demo/hello/Fabien
+    http://apilogic.loc/app_dev.php/admin/dashboard
 
 
 [1]:  http://getcomposer.org/
