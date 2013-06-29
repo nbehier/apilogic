@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0336a60bf1a8e749dab09d055b1a543e",
+    "hash": "262ed7383f92bd5bfc58385bf1b00038",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1450,25 +1450,73 @@
             "time": "2013-06-24 21:39:11"
         },
         {
-            "name": "sonata-project/exporter",
-            "version": "1.3.0",
+            "name": "sonata-project/easy-extends-bundle",
+            "version": "dev-master",
+            "target-dir": "Sonata/EasyExtendsBundle",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sonata-project/exporter.git",
-                "reference": "1.3.0"
+                "url": "https://github.com/sonata-project/SonataEasyExtendsBundle.git",
+                "reference": "47e5098fc402f420f1cb206959f0c80aa19f0e31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/1.3.0",
-                "reference": "1.3.0",
+                "url": "https://api.github.com/repos/sonata-project/SonataEasyExtendsBundle/zipball/47e5098fc402f420f1cb206959f0c80aa19f0e31",
+                "reference": "47e5098fc402f420f1cb206959f0c80aa19f0e31",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.3.2",
+                "symfony/console": "2.*",
+                "symfony/finder": "2.*",
+                "symfony/framework-bundle": "2.*"
             },
-            "require-dev": {
-                "php": ">=5.3.0",
-                "symfony/property-access": ">=2.2, <3.0.0-dev",
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-2.0": "2.0.x-dev",
+                    "dev-master": "2.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Sonata\\EasyExtendsBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thomas Rabaix",
+                    "email": "thomas.rabaix@sonata-project.org",
+                    "homepage": "http://sonata-project.org"
+                },
+                {
+                    "name": "Sonata Community",
+                    "homepage": "https://github.com/sonata-project/SonataEasyExtendsBundle/contributors"
+                }
+            ],
+            "description": "Symfony SonataEasyExtendsBundle",
+            "homepage": "http://sonata-project.org/bundles/easy-extends",
+            "keywords": [
+                "Easy Extends",
+                "sonata"
+            ],
+            "time": "2013-06-23 13:41:45"
+        },
+        {
+            "name": "sonata-project/exporter",
+            "version": "1.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sonata-project/exporter.git",
+                "reference": "1.2.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/1.2.3",
+                "reference": "1.2.3",
                 "symfony/routing": "*"
             },
             "suggest": {
@@ -1501,7 +1549,7 @@
                 "export",
                 "xls"
             ],
-            "time": "2013-06-06 20:59:26"
+            "time": "2013-06-06 12:40:27"
         },
         {
             "name": "sonata-project/intl-bundle",
