@@ -50,7 +50,8 @@ Check your folder `app/logs`and `app/cache` permissions
 
 Then, go to `http://apilogic.loc/config.php`
 
-And begin your [code learning][5] 
+  php app/console fos:user:create
+  php app/console fos:user:promote
 
 3) Browsing the Apilogic
 --------------------------------
@@ -58,11 +59,17 @@ And begin your [code learning][5]
 To see a real-live Symfony page in action, access the following page:
 
     http://apilogic.loc/app_dev.php/demo/hello/Fabien
-    http://apilogic.loc/app_dev.php/admin/dashboard
+    http://apilogic.loc/app_dev.php/admin/dashboard (admin::password)
 
+4) Implement
+--------------------------------
+
+Begin your [code learning][5] 
+Do not forget [this part][6]
 
 [1]:  http://getcomposer.org/
 [2]:  http://stackoverflow.com/a/14135950
 [3]:  http://thoomtech.com/post/15366294744/mamp-intl-lion
 [4]:  http://sunny.chotai.uk.com/?p=2
 [5]:  http://symfony.com/doc/master/book/page_creation.html
+[6]:  http://sonata-project.org/bundles/admin/2-1/doc/reference/security.html#usage

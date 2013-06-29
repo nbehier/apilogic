@@ -32,7 +32,9 @@ class AppKernel extends Kernel
             new Application\Sonata\PageBundle\ApplicationSonataPageBundle(),
             //new Symfony\Cmf\Bundle\RoutingExtraBundle\SymfonyCmfRoutingExtraBundle(),
             
+            // Required User Management
             new FOS\UserBundle\FOSUserBundle(),
+            new Apilogic\UserBundle\ApilogicUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
