@@ -48,10 +48,17 @@ Update your `/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf` with
 
 Check your folder `app/logs`and `app/cache` permissions
 
+Create `uplaods` folder:
+
+    mkdir web/uploads
+    mkdir web/uploads/media
+    chmod -R 0777 web/uploads
+
 Then, go to `http://apilogic.loc/config.php`
 
-  php app/console fos:user:create
-  php app/console fos:user:promote
+    php app/console doctrine:schema:update
+    php app/console fos:user:create
+    php app/console fos:user:promote
 
 3) Browsing the Apilogic
 --------------------------------
