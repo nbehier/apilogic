@@ -21,7 +21,7 @@ Then, use the `install` or `update` composer command:
 Before starting coding, make sure that your local system is properly
 configured for Symfony.
 
-Execute the `check.php` script from the command line:
+Execute the `check.php` script from the command line (if [mamp extension missing][2] or [intl particular missing][3] or [this one][4]):
 
     php app/check.php
 
@@ -50,7 +50,7 @@ Check your folder `app/logs`and `app/cache` permissions
 
 Then, go to `http://apilogic.loc/config.php`
 
-And begin your [code learning][2] 
+And begin your [code learning][5] 
 
 3) Browsing the Apilogic
 --------------------------------
@@ -61,4 +61,7 @@ To see a real-live Symfony page in action, access the following page:
 
 
 [1]:  http://getcomposer.org/
-[2]:  http://symfony.com/doc/master/book/page_creation.html
+[2]:  http://stackoverflow.com/a/14135950
+[3]:  http://thoomtech.com/post/15366294744/mamp-intl-lion
+[4]:  http://sunny.chotai.uk.com/?p=2
+[5]:  http://symfony.com/doc/master/book/page_creation.html
