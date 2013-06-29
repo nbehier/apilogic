@@ -3,11 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-<<<<<<< HEAD
     "hash": "262ed7383f92bd5bfc58385bf1b00038",
-=======
-    "hash": "0336a60bf1a8e749dab09d055b1a543e",
->>>>>>> 39811ac74f72da482723a0e5144373c9c7b552de
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1454,7 +1450,6 @@
             "time": "2013-06-24 21:39:11"
         },
         {
-<<<<<<< HEAD
             "name": "sonata-project/easy-extends-bundle",
             "version": "dev-master",
             "target-dir": "Sonata/EasyExtendsBundle",
@@ -1522,30 +1517,6 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sonata-project/exporter/zipball/1.2.3",
                 "reference": "1.2.3",
-=======
-            "name": "sonata-project/exporter",
-            "version": "1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sonata-project/exporter.git",
-                "reference": "1.3.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sonata-project/exporter/zipball/1.3.0",
-                "reference": "1.3.0",
->>>>>>> 39811ac74f72da482723a0e5144373c9c7b552de
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "php": ">=5.3.0",
-<<<<<<< HEAD
-=======
-                "symfony/property-access": ">=2.2, <3.0.0-dev",
->>>>>>> 39811ac74f72da482723a0e5144373c9c7b552de
                 "symfony/routing": "*"
             },
             "suggest": {
@@ -1578,11 +1549,7 @@
                 "export",
                 "xls"
             ],
-<<<<<<< HEAD
             "time": "2013-06-06 12:40:27"
-=======
-            "time": "2013-06-06 20:59:26"
->>>>>>> 39811ac74f72da482723a0e5144373c9c7b552de
         },
         {
             "name": "sonata-project/intl-bundle",

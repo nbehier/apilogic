@@ -19,7 +19,6 @@
         "sensio/framework-extra-bundle": "2.3.*",
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
-<<<<<<< HEAD
         "sonata-project/cache-bundle":"2.*",
         "sonata-project/block-bundle": "2.*",
         "sonata-project/seo-bundle": "1.*",
@@ -32,13 +31,6 @@
         "sonata-project/admin-bundle": ">=2.2.1",
         "sonata-project/doctrine-orm-admin-bundle": "2.2.*",
         "sonata-project/page-bundle": "master"
-=======
-        "sonata-project/admin-bundle": "2.*",
-        "sonata-project/doctrine-orm-admin-bundle": "2.*",
-        "sonata-project/page-bundle": "2.*",
-        "sonata-project/intl-bundle": "2.*",
-        "sonata-project/cache-bundle": "2.*"
->>>>>>> 39811ac74f72da482723a0e5144373c9c7b552de
     },
     "scripts": {
         "post-install-cmd": [

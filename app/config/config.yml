@@ -4,12 +4,8 @@ imports:
 
 framework:
     #esi:             ~
-<<<<<<< HEAD
     #translator:      { fallback: %locale% }
     translator:      ~
-=======
-    translator:      { fallback: %locale% }
->>>>>>> 39811ac74f72da482723a0e5144373c9c7b552de
     secret:          %secret%
     router:
         resource: "%kernel.root_dir%/config/routing.yml"
@@ -77,7 +73,6 @@ swiftmailer:
     password:  %mailer_password%
     spool:     { type: memory }
 
-<<<<<<< HEAD
 sonata_cache:
     caches:
 #        esi:
@@ -106,15 +101,12 @@ sonata_cache:
 #            servers:
 #                - { domain: kooqit.local, ip: 127.0.0.1, port: 80 }
 
-=======
->>>>>>> 39811ac74f72da482723a0e5144373c9c7b552de
 sonata_block:
     default_contexts: [cms]
     blocks:
         sonata.admin.block.admin_list:
             contexts:   [admin]
 
-<<<<<<< HEAD
         #sonata.admin_doctrine_orm.block.audit:
         #    contexts:   [admin]
 
@@ -200,7 +192,3 @@ sonata_page:
     catch_exceptions:
         not_found: [404]    # render 404 page with "not_found" key (name generated: _page_internal_error_{key})
         fatal:     [500]    # so you can use the same page for different http errors or specify specific page for each error
-=======
-        sonata.block.service.text:
-        sonata.block.service.rss:
->>>>>>> 39811ac74f72da482723a0e5144373c9c7b552de

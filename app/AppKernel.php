@@ -16,7 +16,6 @@ class AppKernel extends Kernel
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
-<<<<<<< HEAD
 
             // Required Sonata page bundles
             new Sonata\CacheBundle\SonataCacheBundle(),
@@ -32,12 +31,6 @@ class AppKernel extends Kernel
             new Sonata\PageBundle\SonataPageBundle(),
             new Application\Sonata\PageBundle\ApplicationSonataPageBundle(),
             //new Symfony\Cmf\Bundle\RoutingExtraBundle\SymfonyCmfRoutingExtraBundle(),
-=======
-            new Sonata\BlockBundle\SonataBlockBundle(),
-            new Sonata\jQueryBundle\SonatajQueryBundle(),
-            new Sonata\AdminBundle\SonataAdminBundle(),
-            new Sonata\PageBundle\SonataPageBundle(),
->>>>>>> 39811ac74f72da482723a0e5144373c9c7b552de
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
