@@ -31,6 +31,12 @@ class AppKernel extends Kernel
             new Sonata\PageBundle\SonataPageBundle(),
             new Application\Sonata\PageBundle\ApplicationSonataPageBundle(),
             //new Symfony\Cmf\Bundle\RoutingExtraBundle\SymfonyCmfRoutingExtraBundle(),
+            new Sonata\MarkItUpBundle\SonataMarkItUpBundle(),
+            new Knp\Bundle\MarkdownBundle\KnpMarkdownBundle(),
+            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
+            new Sonata\FormatterBundle\SonataFormatterBundle(),
+            new Sonata\MediaBundle\SonataMediaBundle(),
+            new Application\Sonata\MediaBundle\ApplicationSonataMediaBundle(),
             
             // Required User Management
             new FOS\UserBundle\FOSUserBundle(),
